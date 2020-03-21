@@ -71,8 +71,11 @@
         android:layout_below="@id/passId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-
         android:background="@drawable/button_bg_rounded_corners"
+        android:backgroundTint="@android:color/holo_blue_light"
+
+
+        android:elevation="200dp"
         android:text="@string/action_sign_in_short" />
 
     <TextView
@@ -91,7 +94,7 @@
         android:layout_below="@+id/passId"
         android:layout_alignStart="@+id/buttonId"
         android:layout_centerHorizontal="true"
-        android:text="@string/esperarSign"
+
         android:textColor="#000000"
         android:textSize="18sp"
         android:visibility="invisible" />
@@ -105,7 +108,7 @@
         android:layout_marginStart="-142dp"
         android:layout_marginTop="0dp"
         android:visibility="invisible"
-        app:srcCompat="@drawable/button_bg_rounded_corners02" />
+         />
 
     <Button
         android:id="@+id/devButton02"
@@ -115,7 +118,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="77dp"
         android:layout_marginEnd="21dp"
-        android:onClick="devbutton02"
+
         android:text="Dev Button 02"
         android:visibility="invisible" />
 

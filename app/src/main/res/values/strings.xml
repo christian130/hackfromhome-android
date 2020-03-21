@@ -21,4 +21,5 @@
     <string name="detallesordenes">Pre-order details</string>
     <string name="requirecambio">Please select an exchange rate.</string>
     <string name="user_hint">User Name</string>
+    <string name="password_hint">Password</string>
 </resources>
