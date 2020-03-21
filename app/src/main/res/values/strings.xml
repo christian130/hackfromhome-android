@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stay&amp;&amp;Code</string>
+    <string name="logo_description">Stay and Learn to Code (and help yourself)</string>
+    <string name="developer_by">Developed by christian130</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Session Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">Invalid E-Mail</string>
+    <string name="error_invalid_password">Password too short</string>
+    <string name="error_incorrect_password">Incorrect Password</string>
+    <string name="error_field_required">Required Field</string>
+    <string name="permission_rationale">"Contact permissions are required to complete the email."</string>
+    <string name="title_activity_otra_actividad">Another Activity</string>
+    <string name="avisod">User Logged In</string>
+    <string name="notuserorpass">Invalid User or Password</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="inicio">Home</string>
+    <string name="preordenes">Orders</string>
+    <string name="detallesordenes">Pre-order details</string>
+    <string name="requirecambio">Please select an exchange rate.</string>
+</resources>

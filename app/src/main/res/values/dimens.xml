@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logo_splash_width">150dp</dimen>
+    <dimen name="logo_splash_height">150dp</dimen>
+    <dimen name="logo_login_width">100dp</dimen>
+    <dimen name="logo_login_height">100dp</dimen>
+    <dimen name="gradient_angle">90</dimen>
+
+    <dimen name="marginTop_logo_port">100dp</dimen>
+    <dimen name="marginTop_logo_land">25dp</dimen>
+
+    <dimen name="marginTop_logo_login_port">60dp</dimen>
+    <dimen name="marginTop_logo_login_land">20dp</dimen>
+
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_top_8">8dp</dimen>
+    <dimen name="margin_bottom_8">8dp</dimen>
+    <dimen name="margin_start_8">8dp</dimen>
+    <dimen name="margin_end_8">8dp</dimen>
+
+    <dimen name="floating_button_margin_20">20dp</dimen>
+
+    <dimen name="text_Product_Description">20sp</dimen>
+    <dimen name="d">300dp</dimen>
+
+
+</resources>
