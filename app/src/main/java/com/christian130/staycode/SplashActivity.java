@@ -42,7 +42,7 @@ public class SplashActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                         finishAffinity();
                     }
-                }, 1000);
+                }, 3000);
                 Log.d("no signed in", "the user is not signed in...");
 
             }

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/logo_login_width"
+        android:layout_height="@dimen/logo_login_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_logo_login_port"
+        android:contentDescription="@string/logo_description"
+        app:srcCompat="@drawable/playstore" />
+
+    <EditText
+        android:id="@+id/usuarioID"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:autofillHints=""
+        android:digits="0,1,2,3,4,5,6,7,8,9,qwertzuiopasdfghjklyxcvbnm,QWERTZUIOPASDFGHJKLYXCVBNM,@,."
+        android:ems="10"
+        android:hint="@string/user_hint"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorInputLogin"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passId"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usuarioID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/colorInputLogin"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/devButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="267dp"
+        android:onClick="devbutton"
+        android:text="DEV BUTTON"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_bg_rounded_corners"
+        android:text="@string/action_sign_in_short" />
+
+    <TextView
+        android:id="@+id/idEtiqueta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passId"
+        android:layout_alignStart="@+id/buttonId"
+        android:layout_centerHorizontal="true"
+        android:text="@string/esperarSign"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-142dp"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/button_bg_rounded_corners02" />
+
+    <Button
+        android:id="@+id/devButton02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="21dp"
+        android:onClick="devbutton02"
+        android:text="Dev Button 02"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="-27dp"
+        android:text="@string/app_name" />
+
+
+</RelativeLayout>
